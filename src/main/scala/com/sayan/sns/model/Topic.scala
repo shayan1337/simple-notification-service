@@ -4,4 +4,4 @@ package com.sayan.sns.model
  * Represents a Topic where Producers send messages to
  */
 
-case class Topic(serialVersionUID: SerialVersionUID)
+case class Topic(serialVersionUID: SerialVersionUID, name : Option[String])

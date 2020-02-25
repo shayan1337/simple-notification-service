@@ -6,7 +6,7 @@ import util.Try
 /**
  * Holds service configuration settings.
  */
-trait Configuration {
+object Configuration {
 
   val config = ConfigFactory.load()
   
